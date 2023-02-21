@@ -39,9 +39,9 @@
                             <td>{{ $b->penerbit }}</td>
                             <td>{{ $b->stok }}</td>
                             <td>
-                                <a class="btn btn-outline-primary" href="/buku/edit/{{ $b->id }}" role="button"><i class="fas fa-fw fa-edit">edit</i></a>
+                                <a class="btn btn-primary" href="/buku/edit/{{ $b->id }}" role="button"><i class="fas fa-fw fa-edit">edit</i></a>
                                 |
-                                <a class="btn btn-outline-danger" href="/buku/hapus/{{ $b->id }}" role="button"><i class="fas fa-fw fa-trash">delete</i></a>
+                                <a class="btn btn-danger" href="/buku/hapus/{{ $b->id }}" role="button"><i class="fas fa-fw fa-trash">delete</i></a>
                             </td>
                         </tr>
                         @endforeach
