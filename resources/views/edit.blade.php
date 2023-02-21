@@ -3,8 +3,8 @@
     <div class="card-body">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" rel="stylesheet">
-      <h1>Form Edit Data Buku</h1>
-     
+      <h1>Form Edit Data Buku cia</h1>
+
       <?php
         $date= date('d F Y, h:i:s A');
         ?>
@@ -39,7 +39,7 @@
         <input type="hidden" name="updated_at" value="<?php echo date('Y-m-d h:i:s'); ?>">
         <input type="submit" value="Simpan Data">
     </form>
-  
+
     </div>
   </div>
 
